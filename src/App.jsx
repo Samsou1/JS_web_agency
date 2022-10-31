@@ -1,16 +1,15 @@
-import './App.css'
+import './App.css';
 import {
   BrowserRouter,
   Routes,
   Route,
 } from 'react-router-dom';
-import Home from './pages/Home'
-import About from './pages/About'
-import Work from './pages/Work'
-import StudyCase from './pages/Work/StudyCase'
+import Home from './pages/Home';
+import About from './pages/About';
+import Work from './pages/Work';
+import StudyCase from './pages/Work/StudyCase';
 
 function App() {
-
   return (
     <>
       <BrowserRouter>
@@ -27,4 +26,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

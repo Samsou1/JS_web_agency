@@ -1,6 +1,6 @@
-import Navbar from '../../components/Navbar'
+import Navbar from '../../components/Navbar';
 import {Link} from 'react-router-dom';
-import works from '../../assets/works'
+import works from '../../assets/works';
 
 const Work = () => {
   return (
@@ -18,4 +18,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default Work;

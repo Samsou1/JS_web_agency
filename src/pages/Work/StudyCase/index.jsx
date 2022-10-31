@@ -1,14 +1,14 @@
 import {useParams} from 'react-router-dom';
 import Navbar from '../../../components/Navbar';
-import works from '../../../assets/works'
-import {useState, useEffect} from 'react'
+import works from '../../../assets/works';
+import {useState, useEffect} from 'react';
 
 const WorkItem = () => {
   const [currentWork, setCurrentWork] = useState(null);
   const work = useParams()['works'].split('-')[0];
 
   useEffect(() => {
-    works[work] != undefined ? setCurrentWork(works[work]):setCurrentWork(null)
+    works[work] != undefined ? setCurrentWork(works[work]):setCurrentWork(null);
   }, [])
 
   return currentWork != null ? (
@@ -25,4 +25,4 @@ const WorkItem = () => {
   </div>)
 }
 
-export default WorkItem
+export default WorkItem;
